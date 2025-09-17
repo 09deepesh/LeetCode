@@ -7,7 +7,7 @@ public:
         while (low < high) {
             int mid = (low + high) / 2;
 
-            if (nums[mid] > nums[right]) {
+            if (nums[mid] > nums[high]) {
                 low = mid + 1;
             } else {
 
