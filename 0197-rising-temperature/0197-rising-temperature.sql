@@ -1,0 +1,2 @@
+# Write your MySQL query statement below
+select distinct d1.id as Id from Weather as d1  join Weather as d2 on  date_add(d2.recordDate ,interval 1 day) = d1.recordDate where d1.temperature > d2.temperature 
